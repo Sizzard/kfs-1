@@ -2,5 +2,5 @@
 
 void kernel_main(void) {
     terminal_initialize();
-    printk("Salut", 0x42);
+    printk("%x", 0x42);
 }
